@@ -1,0 +1,6 @@
+Como se calcula la penalización l1/l2 cuando se agrega el parámetro “regularization” a una capa? Cuando se hace el entrenamiento de la red neuronal, se vana ajustando los pesos para que la red pueda reconocer los patrones. Pero si el valor es demasiado grande, la red los memoriza los datos. La penalización l1 hace que muchos pesos se apaguen, lo que lleva a menos conexiones entre las neuronas. Por el contrario la penalización l2 no los apaga, si no que no los deja crecer. En resumen l1 busca conexiones mas simples y l2 estabilidad.
+
+Como se calculan los valores de la matriz de filtro en la capa convolucional de una CNN? al principio son números aleatorios que se van ajustando durante el proceso de entrenamiento poco a poco usando un proceso de prueba y error, porque primero hace la predicción, luego se compara con la respuesta correcta para obtener una diferencia, y para hacer un ajuste de los valores y con ello ir disminuyendo esa diferencia.
+
+Propuestas para object detection: Identificar si en el frutero se encuentra una fruta especifica, por ejemplo el kiwi.
+Propuestas para image Classification: clasificar la imagen en 2 categorías, la primera para saber si contiene pocas frutas (menos de 5) y la otra para saber si tiene muchas (mas de 5)
